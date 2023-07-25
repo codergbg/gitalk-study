@@ -21,13 +21,13 @@
         var gitalk = new Gitalk({
             clientID: 'c9f3c34960a87d78d8ec', //clientID 
             clientSecret: '23fc387b606c83c22876b10158120565ae453b55',//clientSecret
-            repo: 'gitalk-comments',// 评论仓库名
+            repo: 'gitalk-comments', // 评论仓库名
             owner: 'codergbg',
             admin: ['codergbg'],
             id: location.pathname, // 返回当前 URL 的路径部分。
+            language:'zh-CN', //语言
             distractionFreeMode: false  // 无干扰模式
         })
-
         gitalk.render('gitalk-container')
     </script>
 </body>
