@@ -24,7 +24,7 @@
             repo: 'gitalk-comments', // 评论仓库名
             owner: 'codergbg',
             admin: ['codergbg'],
-            id: md5(location.pathname), // 返回当前 URL 的路径部分。
+            id: location.pathname, // 返回当前 URL 的路径部分。
             language:'zh-CN', //语言
             distractionFreeMode: false,  // 无干扰模式
             pagerDirection: 'last'
